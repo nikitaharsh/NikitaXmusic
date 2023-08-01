@@ -3,9 +3,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from nikitaX import app
-from nikitaX.utils.database import set_cmode
-from nikitaX.utils.decorators.admins import AdminActual
+from NikitaX import app
+from NikitaX.utils.database import set_cmode
+from NikitaX.utils.decorators.admins import AdminActual
 
 ### Multi-Lang Commands
 CHANNELPLAY_COMMAND = get_command("CHANNELPLAY_COMMAND")
