@@ -3,8 +3,8 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from nikitaX import app
-from nikitaX.utils.database.memorydatabase import (get_loop,
+from NikitaX import app
+from NikitaX.utils.database.memorydatabase import (get_loop,
                                                       set_loop)
 from NikitaX.utils.decorators import AdminRightsCheck
 
