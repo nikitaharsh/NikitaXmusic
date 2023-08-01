@@ -4,14 +4,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 
 from config import BANNED_USERS
-from nikitaX import app
-from nikitaX.utils.database import (get_global_tops,
+from NikitaX import app
+from NikitaX.utils.database import (get_global_tops,
                                        get_particulars, get_userss)
-from nikitaX.utils.decorators.language import languageCB
-from nikitaX.utils.inline.playlist import (botplaylist_markup,
+from NikitaX.utils.decorators.language import languageCB
+from NikitaX.utils.inline.playlist import (botplaylist_markup,
                                               failed_top_markup,
                                               top_play_markup)
-from nikitaX.utils.stream.stream import stream
+from NikitaX.utils.stream.stream import stream
 
 loop = asyncio.get_running_loop()
 
