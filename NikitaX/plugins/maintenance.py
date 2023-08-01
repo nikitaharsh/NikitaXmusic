@@ -2,12 +2,12 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from strings import get_command, get_string
-from nikitaX import app
-from nikitaX.misc import SUDOERS
-from nikitaX.utils.database import (get_lang, is_maintenance,
+from NikitaX import app
+from NikitaX.misc import SUDOERS
+from NikitaX.utils.database import (get_lang, is_maintenance,
                                        maintenance_off,
                                        maintenance_on)
-from nikitaX.utils.decorators.language import language
+from NikitaX.utils.decorators.language import language
 
 # Commands
 MAINTENANCE_COMMAND = get_command("MAINTENANCE_COMMAND")
