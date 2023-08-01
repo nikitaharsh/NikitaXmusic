@@ -3,13 +3,13 @@ from pyrogram.types import Message
 
 import config
 from strings import get_command
-from nikitaX import app
-from nikitaX.misc import SUDOERS
-from nikitaX.utils.database import (add_private_chat,
+from NikitaX import app
+from NikitaX.misc import SUDOERS
+from NikitaX.utils.database import (add_private_chat,
                                        get_private_served_chats,
                                        is_served_private_chat,
                                        remove_private_chat)
-from nikitaX.utils.decorators.language import language
+from NikitaX.utils.decorators.language import language
 
 AUTHORIZE_COMMAND = get_command("AUTHORIZE_COMMAND")
 UNAUTHORIZE_COMMAND = get_command("UNAUTHORIZE_COMMAND")
