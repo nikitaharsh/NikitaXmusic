@@ -2,10 +2,10 @@ from pyrogram import filters
 
 import config
 from strings import get_command
-from nikitaX import app
-from nikitaX.misc import SUDOERS
-from nikitaX.utils.database import add_off, add_on
-from nikitaX.utils.decorators.language import language
+from NikitaX import app
+from NikitaX.misc import SUDOERS
+from NikitaX.utils.database import add_off, add_on
+from NikitaX.utils.decorators.language import language
 
 # Commands
 LOGGER_COMMAND = get_command("LOGGER_COMMAND")
