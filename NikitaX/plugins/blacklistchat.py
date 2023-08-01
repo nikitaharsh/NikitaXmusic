@@ -8,7 +8,7 @@ from nikitaX.misc import SUDOERS
 from nikitaX.utils.database import (blacklist_chat,
                                        blacklisted_chats,
                                        whitelist_chat)
-from AnonX.utils.decorators.language import language
+from nikitaX.utils.decorators.language import language
 
 # Commands
 
