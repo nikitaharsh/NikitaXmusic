@@ -6,11 +6,11 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS
 from strings import get_command, get_string, helpers
-from nikitaX import app
-from nikitaX.misc import SUDOERS
-from nikitaX.utils import help_pannel
-from nikitX.utils.database import get_lang, is_commanddelete_on
-from nikitaX.utils.decorators.language import (LanguageStart,
+from NikitaX import app
+from NikitaX.misc import SUDOERS
+from NikitaX.utils import help_pannel
+from NikitaX.utils.database import get_lang, is_commanddelete_on
+from NikitaX.utils.decorators.language import (LanguageStart,
                                                   languageCB)
 from NikitaX.utils.inline.help import (help_back_markup,
                                           private_help_panel)
@@ -143,4 +143,4 @@ async def helper_cb(client, CallbackQuery, _):
     elif cb == "hb12":
         await CallbackQuery.edit_message_text(
             helpers.HELP_12, reply_markup=keyboard
-        )
+      )
