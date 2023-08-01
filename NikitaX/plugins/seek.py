@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from nikitaX import YouTube, app
-from nikitaX.core.call import Anon
-from nikitaX.misc import db
-from nikitaX.utils import AdminRightsCheck, seconds_to_min
+from NikitaX import YouTube, app
+from NikitaX.core.call import Anon
+from NikitaX.misc import db
+from NikitaX.utils import AdminRightsCheck, seconds_to_min
 
 # Commands
 SEEK_COMMAND = get_command("SEEK_COMMAND")
