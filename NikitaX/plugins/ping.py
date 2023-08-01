@@ -5,11 +5,11 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 from strings import get_command
-from nikitaX import app
-from nikitaX.core.call import Anon
-from nikitaX.utils import bot_sys_stats
-from nikitX.utils.decorators.language import language
-from nikitaX.utils.inline.play import close_keyboard
+from NikitaX import app
+from NikitaX.core.call import Anon
+from NikitaX.utils import bot_sys_stats
+from NikitaX.utils.decorators.language import language
+from NikitaX.utils.inline.play import close_keyboard
 
 ### Commands
 PING_COMMAND = get_command("PING_COMMAND")
