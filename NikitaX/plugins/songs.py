@@ -11,10 +11,10 @@ from pyrogram.types import (InlineKeyboardButton,
 from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
 from strings import get_command
-from nikitaX import YouTube, app
-from nikitaX.utils.decorators.language import language, languageCB
-from nikitaX.utils.formatters import convert_bytes
-from nikitaX.utils.inline.song import song_markup
+from NikitaX import YouTube, app
+from NikitaX.utils.decorators.language import language, languageCB
+from NikitaX.utils.formatters import convert_bytes
+from NikitaX.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = get_command("SONG_COMMAND")
