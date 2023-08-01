@@ -19,9 +19,9 @@ from pytgcalls.types.stream import StreamAudioEnded
 
 import config
 from strings import get_string
-from nikitaX import LOGGER, YouTube, app
-from nikitaX.misc import db
-from nikitax.utils.database import (add_active_chat,
+from NikitaX import LOGGER, YouTube, app
+from NikitaX.misc import db
+from NikitaX.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        get_assistant,
                                        get_audio_bitrate, get_lang,
@@ -31,10 +31,10 @@ from nikitax.utils.database import (add_active_chat,
                                        remove_active_chat,
                                        remove_active_video_chat)
 from NikitaX.utils.exceptions import AssistantErr
-from nikitaX.utils.inline.play import (stream_markup,
+from NikitaX.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from nikitax.utils.stream.autoclear import auto_clean
-from nikitax.utils.thumbnails import gen_thumb
+from NikitaX.utils.stream.autoclear import auto_clean
+from NikitaX.utils.thumbnails import gen_thumb
 
 autoend = {}
 counter = {}
