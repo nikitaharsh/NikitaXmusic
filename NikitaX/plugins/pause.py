@@ -3,11 +3,11 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from nikitaX import app
-from nikitaX.core.call import Anon
-from nikitaX.utils.database import is_music_playing, music_off
-from nikitaX.utils.decorators import AdminRightsCheck
-from nikitaX.utils.inline.play import close_keyboard
+from NikitaX import app
+from NikitaX.core.call import Anon
+from NikitaX.utils.database import is_music_playing, music_off
+from NikitaX.utils.decorators import AdminRightsCheck
+from NikitaX.utils.inline.play import close_keyboard
 
 # Commands
 PAUSE_COMMAND = get_command("PAUSE_COMMAND")
