@@ -10,11 +10,11 @@ import config
 from config import BANNED_USERS
 from config import OWNER_ID
 from strings import get_command, get_string
-from nikitaX import Telegram, YouTube, app
-from nikitaX.misc import SUDOERS, _boot_
-from nikitaX.plugins.playlist import del_plist_msg
-from nikitaX.plugins.sudoers import sudoers_list
-from nikitaX.utils.database import (add_served_chat,
+from NikitaX import Telegram, YouTube, app
+from NikitaX.misc import SUDOERS, _boot_
+from NikitaX.plugins.playlist import del_plist_msg
+from NikitaX.plugins.sudoers import sudoers_list
+from NikitaX.utils.database import (add_served_chat,
                                        add_served_user,
                                        get_served_chats,
                                        get_served_users,
@@ -22,9 +22,9 @@ from nikitaX.utils.database import (add_served_chat,
                                        get_assistant, get_lang,
                                        get_userss, is_on_off,
                                        is_served_private_chat)
-from nikitaX.utils.decorators.language import LanguageStart
-from nikitaX.utils.formatters import get_readable_time
-from nikitaX.utils.inline import (help_pannel, private_panel,
+from NikitaX.utils.decorators.language import LanguageStart
+from NikitaX.utils.formatters import get_readable_time
+from NikitaX.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
 
 loop = asyncio.get_running_loop()
