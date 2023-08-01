@@ -3,12 +3,12 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from nikitaX import app
-from nikitaX.misc import SUDOERS
-from nikitaX.utils.database import (blacklist_chat,
+from NikitaX import app
+from NikitaX.misc import SUDOERS
+from NikitaX.utils.database import (blacklist_chat,
                                        blacklisted_chats,
                                        whitelist_chat)
-from nikitaX.utils.decorators.language import language
+from NikitaX.utils.decorators.language import language
 
 # Commands
 
