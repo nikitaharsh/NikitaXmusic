@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from nikitaX import app
-from nikitaX.misc import SUDOERS
-from nikitaX.utils.database import add_gban_user, remove_gban_user
-from nikitaX.utils.decorators.language import language
+from NikitaX import app
+from NikitaX.misc import SUDOERS
+from NikitaX.utils.database import add_gban_user, remove_gban_user
+from NikitaX.utils.decorators.language import language
 
 # Command
 BLOCK_COMMAND = get_command("BLOCK_COMMAND")
