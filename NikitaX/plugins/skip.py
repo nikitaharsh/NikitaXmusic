@@ -4,16 +4,16 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from nikitaX import YouTube, app
-from nikitaX.core.call import Anon
-from nikitaX.misc import db
-from nikitaX.utils.database import get_loop
-from nikitaX.utils.decorators import AdminRightsCheck
-from nikitaX.utils.inline.play import (stream_markup,
+from NikitaX import YouTube, app
+from NikitaX.core.call import Anon
+from NikitaX.misc import db
+from NikitaX.utils.database import get_loop
+from NikitaX.utils.decorators import AdminRightsCheck
+from NikitaX.utils.inline.play import (stream_markup,
                                           telegram_markup,
                                           close_keyboard)
-from nikitaX.utils.stream.autoclear import auto_clean
-from nikitaX.utils.thumbnails import gen_thumb
+from NikitaX.utils.stream.autoclear import auto_clean
+from NikitaX.utils.thumbnails import gen_thumb
 
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")
