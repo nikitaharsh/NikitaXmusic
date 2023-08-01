@@ -4,10 +4,10 @@ from pyrogram import filters
 
 import config
 from strings import get_command
-from nikitaX import app
-from nikitaX.misc import SUDOERS
-from nikitaX.utils.database.memorydatabase import get_video_limit
-from nikitaX.utils.formatters import convert_bytes
+from NikitaX import app
+from NikitaX.misc import SUDOERS
+from NikitaX.utils.database.memorydatabase import get_video_limit
+from NikitaX.utils.formatters import convert_bytes
 
 VARS_COMMAND = get_command("VARS_COMMAND")
 
