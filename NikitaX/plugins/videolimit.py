@@ -2,10 +2,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from strings import get_command
-from nikitaX import app
-from nikitaX.misc import SUDOERS
-from nikitaX.utils.database import set_video_limit
-from nikitaX.utils.decorators.language import language
+from NikitaX import app
+from NikitaX.misc import SUDOERS
+from NikitaX.utils.database import set_video_limit
+from NikitaX.utils.decorators.language import language
 
 VIDEOLIMIT_COMMAND = get_command("VIDEOLIMIT_COMMAND")
 
