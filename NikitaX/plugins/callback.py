@@ -10,11 +10,11 @@ from config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
                     SOUNCLOUD_IMG_URL, STREAM_IMG_URL,
                     TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL,
                     MUSIC_BOT_NAME, adminlist)
-from nikitaX import YouTube, app
-from nikitaX.core.call import Anon
-from nikitaX.misc import SUDOERS, db
-from nikitaX.utils import bot_sys_stats
-from nikitaX.utils.database import (
+from NikitaX import YouTube, app
+from NikitaX.core.call import Anon
+from NikitaX.misc import SUDOERS, db
+from NikitaX.utils import bot_sys_stats
+from NikitaX.utils.database import (
     get_active_chats,
     get_lang,
     is_active_chat,
@@ -24,17 +24,17 @@ from nikitaX.utils.database import (
     music_on,
     set_loop,
 )
-from nikitaX.utils.decorators.language import languageCB
-from nikitaX.utils.formatters import seconds_to_min
-from nikitaX.utils.inline import (
+from NikitaX.utils.decorators.language import languageCB
+from NikitaX.utils.formatters import seconds_to_min
+from NikitaX.utils.inline import (
     stream_markup,
     stream_markup_timer,
     telegram_markup,
     telegram_markup_timer,
     close_keyboard,
 )
-from nikitaX.utils.stream.autoclear import auto_clean
-from nikitaX.utils.thumbnails import gen_thumb
+from NikitaX.utils.stream.autoclear import auto_clean
+from NikitaX.utils.thumbnails import gen_thumb
 
 wrong = {}
 checker = {}
