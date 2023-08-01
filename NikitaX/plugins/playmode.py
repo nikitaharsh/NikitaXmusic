@@ -3,11 +3,11 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
 from strings import get_command
-from nikitaX import app
-from nikitaX.utils.database import (get_playmode, get_playtype,
+from NikitaX import app
+from NikitaX.utils.database import (get_playmode, get_playtype,
                                        is_nonadmin_chat)
-from nikitaX.utils.decorators import language
-from nikitaX.utils.inline.settings import playmode_users_markup
+from NikitaX.utils.decorators import language
+from NikitaX.utils.inline.settings import playmode_users_markup
 
 ### Commands
 PLAYMODE_COMMAND = get_command("PLAYMODE_COMMAND")
