@@ -7,16 +7,16 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from nikitaX import app
-from nikitaX.misc import SUDOERS
-from nikitaX.utils import get_readable_time
-from nikitaX.utils.database import (add_banned_user,
+from NikitaX import app
+from NikitaX.misc import SUDOERS
+from NikitaX.utils import get_readable_time
+from NikitaX.utils.database import (add_banned_user,
                                        get_banned_count,
                                        get_banned_users,
                                        get_served_chats,
                                        is_banned_user,
                                        remove_banned_user)
-from nikitaX.utils.decorators.language import language
+from NikitaX.utils.decorators.language import language
 
 # Command
 GBAN_COMMAND = get_command("GBAN_COMMAND")
