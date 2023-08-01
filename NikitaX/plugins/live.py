@@ -1,10 +1,10 @@
 from pyrogram import filters
 
 from config import BANNED_USERS
-from nikitaX import YouTube, app
-from nikitaX.utils.channelplay import get_channeplayCB
+from NikitaX import YouTube, app
+from NikitaX.utils.channelplay import get_channeplayCB
 from NikitaX.utils.decorators.language import languageCB
-from nikitaX.utils.stream.stream import stream
+from NikitaX.utils.stream.stream import stream
 
 
 @app.on_callback_query(filters.regex("LiveStream") & ~BANNED_USERS)
