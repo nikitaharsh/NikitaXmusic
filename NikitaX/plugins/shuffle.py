@@ -5,9 +5,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from nikitaX import app
-from nikitaX.misc import db
-from nikitaX.utils.decorators import AdminRightsCheck
+from NikitaX import app
+from NikitaX.misc import db
+from NikitaX.utils.decorators import AdminRightsCheck
 
 # Commands
 SHUFFLE_COMMAND = get_command("SHUFFLE_COMMAND")
