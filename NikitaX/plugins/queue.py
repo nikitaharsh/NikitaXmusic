@@ -9,14 +9,14 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from nikitaX import app
-from nikitaX.misc import db
-from nikitaX.utils import (Anonbin, get_channeplayCB,
+from NikitaX import app
+from NikitaX.misc import db
+from NikitaX.utils import (Anonbin, get_channeplayCB,
                               seconds_to_min)
-from nikitaX.utils.database import (get_cmode, is_active_chat,
+from NikitaX.utils.database import (get_cmode, is_active_chat,
                                        is_music_playing)
-from nikitaX.utils.decorators.language import language, languageCB
-from nikitaX.utils.inline import queue_back_markup, queue_markup
+from NikitaX.utils.decorators.language import language, languageCB
+from NikitaX.utils.inline import queue_back_markup, queue_markup
 
 ###Commands
 QUEUE_COMMAND = get_command("QUEUE_COMMAND")
