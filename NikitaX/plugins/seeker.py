@@ -1,7 +1,7 @@
 import asyncio
 
-from nikitaX.misc import db
-from nikitaX.utils.database import get_active_chats, is_music_playing
+from NikitaX.misc import db
+from NikitaX.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():
