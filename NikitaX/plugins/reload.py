@@ -5,13 +5,13 @@ from pyrogram.types import CallbackQuery, Message
 
 from config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
 from strings import get_command
-from nikitaX import app
-from nikitaX.core.call import Anon
-from nikitaX.misc import db
-from nikitaX.utils.database import get_authuser_names, get_cmode
-from nikitaX.utils.decorators import (ActualAdminCB, AdminActual,
+from NikitaX import app
+from NikitaX.core.call import Anon
+from NikitaX.misc import db
+from NikitaX.utils.database import get_authuser_names, get_cmode
+from NikitaX.utils.decorators import (ActualAdminCB, AdminActual,
                                          language)
-from nikitaX.utils.formatters import alpha_to_int
+from NikitaX.utils.formatters import alpha_to_int
 
 ### Multi-Lang Commands
 RELOAD_COMMAND = get_command("RELOAD_COMMAND")
