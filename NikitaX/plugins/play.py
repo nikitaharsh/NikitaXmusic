@@ -12,19 +12,19 @@ from config import BANNED_USERS, lyrical
 from strings import get_command
 from nikitaX import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from nikitaX.core.call import Anon
-from nikitaX.utils import seconds_to_min, time_to_seconds
-from nikitaX.utils.channelplay import get_channeplayCB
-from nikitaX.utils.database import is_video_allowed
-from nikitaX.utils.decorators.language import languageCB
-from nikitaX.utils.decorators.play import PlayWrapper
+from NikitaX.core.call import Anon
+from NikitaX.utils import seconds_to_min, time_to_seconds
+from NikitaX.utils.channelplay import get_channeplayCB
+from NikitaX.utils.database import is_video_allowed
+from NikitaX.utils.decorators.language import languageCB
+from NikitaX.utils.decorators.play import PlayWrapper
 from NikitaX.utils.formatters import formats
-from nikitaX.utils.inline.play import (livestream_markup,
+from NikitaX.utils.inline.play import (livestream_markup,
                                           playlist_markup,
                                           slider_markup, track_markup)
-from AnonX.utils.inline.playlist import botplaylist_markup
-from AnonX.utils.logger import play_logs
-from AnonX.utils.stream.stream import stream
+from NikitaX.utils.inline.playlist import botplaylist_markup
+from NikitaX.utils.logger import play_logs
+from NikitaX.utils.stream.stream import stream
 
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
