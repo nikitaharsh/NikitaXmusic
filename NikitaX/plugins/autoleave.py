@@ -2,9 +2,9 @@ import asyncio
 from datetime import datetime
 
 import config
-from nikitaX import app
-from nikitaX.core.call import Anon, autoend
-from nikitaX.utils.database import (get_client, is_active_chat,
+from NikitaX import app
+from NikitaX.core.call import Anon, autoend
+from NikitaX.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
 
