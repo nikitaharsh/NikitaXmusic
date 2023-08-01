@@ -8,17 +8,17 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
 from strings import get_command
-from nikitaX import Carbon, YouTube, app
-from nikitaX.utils.database import (delete_playlist, get_playlist,
+from NikitaX import Carbon, YouTube, app
+from NikitaX.utils.database import (delete_playlist, get_playlist,
                                        get_playlist_names,
                                        save_playlist)
-from nikitaX.utils.decorators.language import language, languageCB
-from nikitaX.utils.inline.play import close_keyboard
-from nikitaX.utils.inline.playlist import (botplaylist_markup,
+from NikitaX.utils.decorators.language import language, languageCB
+from NikitaX.utils.inline.play import close_keyboard
+from NikitaX.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from nikitaX.utils.pastebin import Anonbin
-from nikitaX.utils.stream.stream import stream
+from NikitaX.utils.pastebin import Anonbin
+from NikitaX.utils.stream.stream import stream
 
 # Command
 PLAYLIST_COMMAND = get_command("PLAYLIST_COMMAND")
