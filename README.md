@@ -1,6 +1,5 @@
-<h2 align="center">
-    ──「 harsh ダ ᴍᴜsɪᴄ 」──
-</h2>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=WELCOME+TO+NikitaXmusic+X+MUSIC)](https://github.com/nikitaharsh/NikitaXmusic)
+
 
 <p align="center">
   <img src="https://te.legra.ph/file/a03011e7721d0a2777b60.jpg">
