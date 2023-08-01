@@ -2,8 +2,8 @@ import asyncio
 import speedtest
 from pyrogram import filters
 from strings import get_command
-from nikitaX import app
-from nikitaX.misc import SUDOERS
+from NikitaX import app
+from NikitaX.misc import SUDOERS
 
 # Commands
 SPEEDTEST_COMMAND = get_command("SPEEDTEST_COMMAND")
