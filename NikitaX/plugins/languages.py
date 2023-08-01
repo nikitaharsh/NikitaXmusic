@@ -4,9 +4,9 @@ from pyrogram.types import InlineKeyboardButton, Message
 
 from config import BANNED_USERS
 from strings import get_command, get_string
-from nikitaX import app
-from nikitaX.utils.database import get_lang, set_lang
-from nikitaX.utils.decorators import (ActualAdminCB, language,
+from NikitaX import app
+from NikitaX.utils.database import get_lang, set_lang
+from NikitaX.utils.decorators import (ActualAdminCB, language,
                                          languageCB)
 
 # Languages Available
