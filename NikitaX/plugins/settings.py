@@ -6,8 +6,8 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
 from config import (BANNED_USERS, CLEANMODE_DELETE_MINS,
                     MUSIC_BOT_NAME, OWNER_ID)
 from strings import get_command
-from nikitaX import app
-from nikitaX.utils.database import (add_nonadmin_chat,
+from NikitaX import app
+from NikitaX.utils.database import (add_nonadmin_chat,
                                        cleanmode_off, cleanmode_on,
                                        commanddelete_off,
                                        commanddelete_on,
