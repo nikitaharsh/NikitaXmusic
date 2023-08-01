@@ -3,12 +3,12 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
 from strings import get_command
-from nikitaX import app
-from nikitaX.utils.database import (delete_authuser, get_authuser,
+from NikitaX import app
+from NikitaX.utils.database import (delete_authuser, get_authuser,
                                        get_authuser_names,
                                        save_authuser)
-from nikitaX.utils.decorators import AdminActual
-from nikitaX.utils.formatters import int_to_alpha
+from NikitaX.utils.decorators import AdminActual
+from NikitaX.utils.formatters import int_to_alpha
 
 # Command
 AUTH_COMMAND = get_command("AUTH_COMMAND")
