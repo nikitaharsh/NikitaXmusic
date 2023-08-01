@@ -3,8 +3,8 @@ from pyrogram.types import Message
 
 from strings import get_command
 from NikitaX import app
-from nikitaX.misc import SUDOERS
-from nikitaX.utils.database.memorydatabase import (
+from NikitaX.misc import SUDOERS
+from NikitaX.utils.database.memorydatabase import (
     get_active_chats, get_active_video_chats)
 
 # Commands
